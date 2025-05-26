@@ -1,0 +1,29 @@
+
+---
+
+## 📄 `.github/copilot.yml` (GitHub Copilot Configuration)
+
+```yaml
+# GitHub Copilot configuration for Fantasy Runner game project
+
+version: 1
+features:
+  copilot:
+    code_suggestions: true
+    pull_request_comments: true
+    telemetry: true
+
+# Guidelines for GitHub Copilot usage
+guidelines:
+  - 🔍 Use Copilot suggestions for code scaffolding, component setup, and UI logic.
+  - 🧠 Always review and test AI-generated code before committing.
+  - 🚫 Do not auto-generate sensitive logic (e.g., in-app purchase validation) without human verification.
+  - 🎯 Use Copilot in `components/`, `game/`, and `screens/` folders for productivity.
+  - 📝 Encourage meaningful commit messages even when code is AI-assisted.
+
+copilot_ignore:
+  - "**/build/**"
+  - "**/ios/**"
+  - "**/android/**"
+  - "**/*.png"
+  - "**/*.mp3"
